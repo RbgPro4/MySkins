@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>osu! Skins Showcase</title>
+  <link rel="stylesheet" href="page-style.css">
+</head>
+<body>
+
+  <div id="loader"><div class="spinner"></div></div>
+
+    <div class="sidebar" id="sidebar">
+    <div class="page-title">RbgPro4 Skins</div>
+    <div class="buttons-container">
+      <div class="skins-header">Available Skins</div>
+        <button onclick="selectSkin('skin1', this)"> <span>RbgPro4 Skin V1</span> <span class="skin-info">Size: 36.8 MB</span> </button>
+        <button onclick="selectSkin('skin2', this)"> <span>RbgPro4 Skin V2</span> <span class="skin-info">Size: 25.5 MB</span> </button>
+        <button onclick="selectSkin('skin3', this)"> <span>Glow Pink Skin V3 Enchanced</span> <span class="skin-info">Size: 43.9 MB</span> </button>
+        <button onclick="selectSkin('skin4', this)"> <span>RbgPro4 Skin V4 (In works)</span> <span class="skin-info">Size: -- MB</span> </button>
+    </div>
+
+        <div class="sidebar-footer">
+            <p>Page created by RbgPro4</p>
+            <p>&copy; 2025 All rights reserved</p>
+        </div>
+    </div>
+
+    <button class="sidebar-toggle" id="sidebar-toggle" title="Open Menu">☰</button>
+
+    <div class="main" id="main">
+        <div class="content">
+            <div class="screenshots" id="screenshots">
+            <div class="placeholder-message">
+                Select a skin to preview
+            </div>
+
+            <div class="loading-overlay" id="loading-overlay">
+                <div class="spinner"></div>
+            </div>
+
+            </div>
+            <div class="info" id="info">
+            <div class="info-top">
+                <div class="info-size">Size: N/A</div>
+                <div class="info-name">Name: N/A</div>
+            </div>
+            <div class="info-description">Description: N/A</div>
+            <div class="info-bottom">
+                <div class="info-colors">Colors: N/A</div>
+                <button class="download-btn" disabled>Download</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="no-download-popup" class="popup hidden">
+      <div class="popup-content">
+        <h2>Skin Unavailable</h2>
+        <p>This skin is not available for download,<br>but you can still view its images.</p>
+        <div class="popup-buttons">
+          <button id="view-images">View Images</button>
+          <button id="close-popup">Close</button>
+        </div>
+      </div>
+    </div>
+
+<script src="skins.js"></script>
+
+<script>
+  window.addEventListener("load", () => {
+    if (window.innerWidth <= 768) {
+      alert("Hey! Mobile screens are not fully optimized. This site is best viewed on PC for skins download.");
+    }
+  });
+</script>
+
+</body>
+</html>
