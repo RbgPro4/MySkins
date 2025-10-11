@@ -64,7 +64,7 @@ const skins = {
         size: "34.1MB",
         colors: "Black, Cyan, Pink",
         background: "linear-gradient(135deg, rgba(183, 55, 183, 0.8), rgba(67, 18, 67, 0.8))",
-        downloadable: true,
+        downloadable: false,
         hasImages: true,
         screenshots: [
             "https://files.fm/thumb_show.php?i=rfvbb7w8vd",
@@ -325,4 +325,5 @@ function selectSkin(id, buttonElement) {
 
 document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
+
 });
