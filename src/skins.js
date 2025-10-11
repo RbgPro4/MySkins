@@ -17,7 +17,7 @@ const skins = {
         name: "RbgPro4 Skin V1",
         description: "This is my first attempt on making my own skin, but as days pasted i wanted to make better one",
         size: "36.8MB",
-        colors: "Purple, Black, Blue",
+        colors: "--",
         background: "linear-gradient(135deg, rgba(172, 0, 238, 0.8), rgba(124, 124, 155, 0.8))",
         downloadable: false,
         hasImages: true,
@@ -39,7 +39,7 @@ const skins = {
         name: "RbgPro4 Skin V2",
         description: "V2 is the skin i wanted to really work on but did not really progress on it",
         size: "25.5MB",
-        colors: "White, Gray",
+        colors: "--",
         background: "linear-gradient(135deg, rgba(131, 88, 182, 0.8), rgba(58, 43, 68, 0.8))",
         downloadable: false,
         hasImages: true,
@@ -62,7 +62,7 @@ const skins = {
         name: "Glow Pink Skin V3 Enchanced",
         description: "V3 Is my cleanest so far and its very optimized in gameplay, while it shares elements from v2, its a bit more redifined",
         size: "34.1MB",
-        colors: "Black, Cyan, Pink",
+        colors: "--",
         background: "linear-gradient(135deg, rgba(183, 55, 183, 0.8), rgba(67, 18, 67, 0.8))",
         downloadable: true,
         hasImages: true,
@@ -327,4 +327,5 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
 
