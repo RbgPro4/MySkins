@@ -64,7 +64,7 @@ const skins = {
         size: "34.1MB",
         colors: "Black, Cyan, Pink",
         background: "linear-gradient(135deg, rgba(183, 55, 183, 0.8), rgba(67, 18, 67, 0.8))",
-        downloadable: false,
+        downloadable: true,
         hasImages: true,
         screenshots: [
             "https://files.fm/thumb_show.php?i=rfvbb7w8vd",
@@ -83,7 +83,7 @@ const skins = {
             "https://files.fm/thumb_show.php?i=6fygspwbsj",
             "https://files.fm/thumb_show.php?i=qa93kbqq3x",
         ],
-        download: "#"
+        download: "https://files.fm/f/esjgq94kb6"
     },
     skin4: {
         name: "RbgPro4 Skin V4",
@@ -327,3 +327,4 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
