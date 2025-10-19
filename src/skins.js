@@ -97,6 +97,19 @@ const skins = {
             "#"
         ],
         download: "#"
+    },
+    skin4: {
+        name: "RbgPro4 Skin V4 Lite",
+        description: "This skin is a simpler version of V4 but it contails only osu circles while the rest of the skin is plain simple",
+        size: "--MB",
+        colors: "Unknow",
+        background: "rgba(30, 30, 30, 0.6)",
+        hasImages: false,
+        screenshots: [
+            "#",
+            "#"
+        ],
+        download: "#"
     }
 };
 
@@ -327,6 +340,7 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
 
 
 
