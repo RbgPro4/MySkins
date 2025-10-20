@@ -87,7 +87,7 @@ const skins = {
     },
     skin4: {
         name: "RbgPro4 Skin V4",
-        description: "Unknow for now, but im slowly building it",
+        description: "The inspiration came from plana from blue archive, and i made a plana colored theme skin, the skin contains extra folder for extra skin customization",
         size: "34MB",
         colors: "45455d,eeeff4,fe64a0",
         background: "linear-gradient(135deg, rgba(254, 100, 160, 0.8), rgba(69, 69, 93, 0.8))",
@@ -116,9 +116,9 @@ const skins = {
     },
     skin5: {
         name: "RbgPro4 Skin V4 Lite",
-        description: "This skin is a simpler version of V4 but it contails only osu circles while the rest of the skin is plain simple",
+        description: "This is a copy paste of v4 but lite version with less UI",
         size: "17.6MB",
-        colors: "Unknow",
+        colors: "--",
         background: "linear-gradient(135deg, rgba(254, 100, 160, 0.8), rgba(43, 43, 59, 0.8))",
         downloadable: true,
         hasImages: true,
@@ -372,6 +372,7 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
 
 
 
