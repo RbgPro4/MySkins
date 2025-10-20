@@ -83,33 +83,65 @@ const skins = {
             "https://files.fm/thumb_show.php?i=6fygspwbsj",
             "https://files.fm/thumb_show.php?i=qa93kbqq3x",
         ],
-        download: "https://files.fm/f/esjgq94kb6"
+        download: "#"
     },
     skin4: {
         name: "RbgPro4 Skin V4",
         description: "Unknow for now, but im slowly building it",
-        size: "--MB",
-        colors: "Unknow",
+        size: "34MB",
+        colors: "45455d,eeeff4,fe64a0",
         background: "rgba(30, 30, 30, 0.6)",
-        hasImages: false,
+        downloadable: false,
+        hasImages: true,
         screenshots: [
-            "#",
-            "#"
+            "https://files.fm/thumb_show.php?i=sy6p98u2pt",
+            "https://files.fm/thumb_show.php?i=xp9puz3szq",
+            "https://files.fm/thumb_show.php?i=gcu7gq5f46",
+            "https://files.fm/thumb_show.php?i=cmayybqneb",
+            "https://files.fm/thumb_show.php?i=ar2jqzefh9",
+            "https://files.fm/thumb_show.php?i=ghqnfh9y2v",
+            "https://files.fm/thumb_show.php?i=34mv5d84h4",
+            "https://files.fm/thumb_show.php?i=nnqkgnuyge",
+            "https://files.fm/thumb_show.php?i=9aekcs39ut",
+            "https://files.fm/thumb_show.php?i=9t6wujq6pc",
+            "https://files.fm/thumb_show.php?i=h8v68hajpj",
+            "https://files.fm/thumb_show.php?i=z8eu3tu2rv",
+            "https://files.fm/thumb_show.php?i=nzammku9gp",
+            "https://files.fm/thumb_show.php?i=yhqs5vc9yf",
+            "https://files.fm/thumb_show.php?i=j853jynq32",
+            "https://files.fm/thumb_show.php?i=hxypkwdrdj",
+            "https://files.fm/thumb_show.php?i=kt6j25h7bz",
         ],
         download: "#"
     },
     skin5: {
         name: "RbgPro4 Skin V4 Lite",
         description: "This skin is a simpler version of V4 but it contails only osu circles while the rest of the skin is plain simple",
-        size: "--MB",
+        size: "17.6MB",
         colors: "Unknow",
         background: "rgba(30, 30, 30, 0.6)",
-        hasImages: false,
+        downloadable: true,
+        hasImages: true,
         screenshots: [
-            "#",
-            "#"
+            "https://files.fm/thumb_show.php?i=cxxkhcem4x",
+            "https://files.fm/thumb_show.php?i=xfvnwk5y2d",
+            "https://files.fm/thumb_show.php?i=j3t8c7s657",
+            "https://files.fm/thumb_show.php?i=cswe4fgayt",
+            "https://files.fm/thumb_show.php?i=8gm9v2sgy4",
+            "https://files.fm/thumb_show.php?i=868t5etp9q",
+            "https://files.fm/thumb_show.php?i=6xpghe9tc3",
+            "https://files.fm/thumb_show.php?i=xx3vvqefqj",
+            "https://files.fm/thumb_show.php?i=7agdtb4djt",
+            "https://files.fm/thumb_show.php?i=tm846teaep",
+            "https://files.fm/thumb_show.php?i=kd9vashjy4",
+            "https://files.fm/thumb_show.php?i=kkx9nhzbhy",
+            "https://files.fm/thumb_show.php?i=jvtusdnfjv",
+            "https://files.fm/thumb_show.php?i=4qgeqcyajj",
+            "https://files.fm/thumb_show.php?i=tqvjnvq9xb",
+            "https://files.fm/thumb_show.php?i=c7ens47xqq",
+            "https://files.fm/thumb_show.php?i=wfvdee75rf",
         ],
-        download: "#"
+        download: "https://files.fm/f/czxvtxsyqr"
     }
 };
 
@@ -340,6 +372,7 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
 
 
 
