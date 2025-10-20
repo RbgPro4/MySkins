@@ -90,7 +90,7 @@ const skins = {
         description: "Unknow for now, but im slowly building it",
         size: "34MB",
         colors: "45455d,eeeff4,fe64a0",
-        background: "rgba(30, 30, 30, 0.6)",
+        background: "linear-gradient(135deg, rgba(254, 100, 160, 0.8), rgba(69, 69, 93, 0.8))",
         downloadable: false,
         hasImages: true,
         screenshots: [
@@ -119,7 +119,7 @@ const skins = {
         description: "This skin is a simpler version of V4 but it contails only osu circles while the rest of the skin is plain simple",
         size: "17.6MB",
         colors: "Unknow",
-        background: "rgba(30, 30, 30, 0.6)",
+        background: "linear-gradient(135deg, rgba(254, 100, 160, 0.8), rgba(43, 43, 59, 0.8))",
         downloadable: true,
         hasImages: true,
         screenshots: [
@@ -372,6 +372,7 @@ document.getElementById("close-popup").addEventListener("click", () => {
     document.getElementById("no-download-popup").classList.remove("active");
 
 });
+
 
 
 
